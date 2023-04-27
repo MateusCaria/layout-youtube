@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;   
+}
+
+
+.container {
+    background-color: #f7f7f7;
+    max-width: 900px;
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(4, auto);
+    padding: 38px 0 35px 35px;
+    gap: 17px;
+}
+
+.video-principal {
+    width: 543px;
+    font-size: 14px;
+}
+
+.informacoes {
+    display: grid;
+    row-gap: 7px;
+}
+
+.informacoes h2 {
+    padding-top: 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.descricao {
+    max-width: 563px;
+    font-size: 16px;
+}
+
+.lateral {
+    display: grid;
+    row-gap: 10px;
+}
+
+.propaganda {
+    max-width: 270px;
+    max-height: 56px;
+    position: relative;
+    font-size: 11px;
+}
+
+.propaganda p {
+    position: absolute;
+    top: 22px;
+    left: 92px;
+    right: 116px;
+    bottom: 21px;
+}
+
+.videos {
+    display: grid;
+    gap:10px;
+    padding-bottom: 4em;
+}
+
+.video {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.dados {
+    display: grid;
+    font-size: 11px;
+    padding-left: 5px;
+    gap: 5px;
+}
+
+.dados h2 {
+    font-size: 14px;
+}
+
